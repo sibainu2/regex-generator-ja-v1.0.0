@@ -163,14 +163,3 @@ def is_true(text,pattern):
     else:
         return False
     
-        
-
-
-            
-
-
-if __name__ == "__main__":
-    texts = ["a testだあああああああ！！！asfdaa testだあああああああ！！！ ","a testだあああああああ！！！barbhah ethbe  testだあああああああ！！！","a testだあああああああ！！！agfnl testだあああああああ！！！"]
-    pattern = run(texts=texts)
-    print(pattern)
-    print(is_true("a testだあああああああ！！！asfdaasdaedea testだあああああああ！！！ ",pattern=pattern))
